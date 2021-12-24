@@ -1,0 +1,40 @@
+body {
+    background-image: url("http://localhost:3000/img/backgrounds/3.svg");
+    aspect-ratio : 3/1.4;
+    font-family: 'Montserrat', sans-serif;
+}
+
+::selection {
+    color : white;
+    background-color: #61C0BF;
+}
+
+/* Classes */
+.highlight {
+    color : #61C0BF;
+    font-family: bold;
+}
+
+.highlight2 {
+    color : #F73859;
+    font-family: bold;
+}
+
+.elegant {
+    font-family: 'Zen Old Mincho', serif;
+}
+
+.footer{
+    /* color : white; */
+    position: fixed;
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.footer a{
+    text-align: center;
+    text-decoration:underline;
+    color : #1F4E5F;
+}
+

@@ -1,0 +1,142 @@
+body {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* _________________________Classes_____________________________________________________________ */
+.link {
+    text-decoration: none;
+    color : #61C0BF;
+}
+
+.link:hover {
+    color : white
+}
+.navbar {
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Schedules.jsx */
+.pageTitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.card {
+    backdrop-filter : blur(9px);
+    background: transparent;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 5px 5px #0000005f;
+}
+.card-body{
+    text-align: left;
+}
+.blockquote-footer{
+    text-align: center;
+}
+.options{
+    text-align: right;
+    margin-right: 5%;
+}
+
+/* Add Schedule popup */
+.popup-card{
+    padding: auto;    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    background-color: white;
+    min-width : 45%;
+    overflow-y: scroll;
+    max-height: 90%;
+}
+
+.overlay{
+    position: fixed;
+    top : 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+    backdrop-filter : blur(10px);
+    background-color: #00000059;
+    z-index: 100;
+}
+
+/* Footer */
+.footer{    
+    margin-top: 3%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Icons MUI */
+ .iconStyle  {
+    font-size: 7.5rem;
+}
+
+/* Masonry */
+.my-masonry-grid {
+    display: -webkit-box; /* Not needed if auto prefixing */
+    display: -ms-flexbox; /* Not needed if auto prefixing */
+    display: flex;
+    margin-left: -30px; /* gutter size offset */
+    width: auto;
+  }
+  .my-masonry-grid_column {
+    padding-left: 30px; /* gutter size */
+    background-clip: padding-box;
+  }
+  
+  /* Style your items */
+  .my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
+    margin-bottom: 30px;
+  }
+
+
+/* _________________________ID_____________________________________________________________ */
+/* Home.jsx */
+#homeHeading {
+    margin-top: 12%;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 4rem;
+}
+
+#homeRedirect{
+    margin-top: 5%;
+    font-size: 2.5rem;
+}
+
+/* Navbar */
+#brandImg {
+    /* margin-top: 15px; */
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+    width: 35px;
+    height: 35px;
+}
+#brandName {
+    margin-top: 5px;
+}
+
+#scheduleImg {
+    width: 130px;
+    height: 130px;
+}
+
+
+#info {
+    clear: both;
+}
+
+#title{
+   
+}
